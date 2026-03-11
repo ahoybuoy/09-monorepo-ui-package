@@ -1,0 +1,10 @@
+drift:
+  ignore:
+    - type: hardcoded-color
+      file: apps/docs/src/components/PropsTable.tsx
+      value: "#F1F5F9"
+      reason: Don't need this
+    - type: hardcoded-color
+      file: apps/docs/src/components/CodeBlock.tsx
+      value: "#E2E8F0"
+      reason: Don't need it
